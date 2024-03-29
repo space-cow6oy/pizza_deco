@@ -1,0 +1,41 @@
+.nav {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.li {
+  padding-right: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: #b44949;
+  }
+
+  &:active {
+    border-radius: 7px;
+    background-color: #b44949;
+  }
+}
+
+.li_active {
+  border-radius: 7px;
+  background-color: #c47777;
+}
+
+@media (max-width: 430px) {
+  .ul {
+    flex-wrap: wrap;
+  }
+  .li {
+    padding: 0.5rem;
+  }
+}

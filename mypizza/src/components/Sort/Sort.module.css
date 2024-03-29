@@ -1,0 +1,52 @@
+.sort {
+  position: relative;
+}
+
+.span {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.popup__ul {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+}
+
+.li {
+  cursor: pointer;
+  padding-bottom: 0.3rem;
+  text-align: center;
+
+  &.active {
+    border-radius: 7px;
+    background-color: #b44949;
+  }
+
+  &:hover {
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: #b44949;
+  }
+
+  &:active {
+    border-radius: 7px;
+    background-color: #b44949;
+  }
+}
+
+.span__dashed {
+  color: #b44949;
+  cursor: pointer;
+}
+
+@media (max-width: 430px) {
+  .sort {
+    align-self: flex-start;
+    margin: 10px 0;
+  }
+}

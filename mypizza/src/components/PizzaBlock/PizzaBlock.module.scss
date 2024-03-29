@@ -1,0 +1,89 @@
+.pizza_container {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.switch {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.switch__type {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.switch__size {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.price_button {
+  display: flex;
+}
+
+.h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.price_and_button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.size__span {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+.size__span_active {
+  border-radius: 7px;
+  background-color: #b44949;
+}
+
+.type__span {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.type__span_active {
+  border-radius: 7px;
+  background-color: #b44949;
+}
+
+.button {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+}
+
+.img {
+  width: 17rem;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+  .img {
+    width: 12rem;
+  }
+}

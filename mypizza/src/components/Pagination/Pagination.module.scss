@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+  a {
+    display: block;
+    position: relative;
+    // left: 11px;
+    // top: 7px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  :global {
+    .selected {
+      a {
+        border: 2px solid black;
+      }
+    }
+  }
+}

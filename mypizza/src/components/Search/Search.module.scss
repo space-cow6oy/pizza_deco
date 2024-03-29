@@ -1,0 +1,17 @@
+.search__input {
+  border-radius: 7px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.search__div {
+  position: relative;
+}
+
+.close__icon {
+  position: absolute;
+  right: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+}
