@@ -25,7 +25,7 @@ export const PizzaBlock: FC<PizzaBlockProps> = ({ id, imageUrl, price, sizes, ti
   const dispatch = useDispatch();
   const items = useSelector((state: any) => state.cart.items);
 
-  // console.log(realId, activeTyp);
+  console.log(types);
 
   const cartClick = () => {
     dispatch(
@@ -35,7 +35,7 @@ export const PizzaBlock: FC<PizzaBlockProps> = ({ id, imageUrl, price, sizes, ti
         price,
         activeSize: realSize,
         title,
-        activeType: pizzaTypes[activeSize],
+        activeType: pizzaTypes[activeType],
         count: 1,
       }),
     );
