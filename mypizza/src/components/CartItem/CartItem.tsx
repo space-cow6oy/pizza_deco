@@ -3,7 +3,7 @@ import s from './CartItem.module.css';
 import { addItem } from '../../redux/slices/cartSlice';
 import { useDispatch } from 'react-redux';
 import { CartItemType } from '../../redux/slices/cartSlice';
-import { removeItem } from '../../redux/slices/cartSlice';
+import { removeItem, clearCart } from '../../redux/slices/cartSlice';
 
 type CartItemProps = CartItemType & {
   index: number;
